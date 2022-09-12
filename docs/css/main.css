@@ -1,0 +1,433 @@
+.navbar-brand {
+    color: lightgreen;
+    font-weight: bolder;
+}
+
+.link1 {
+    color: lightgreen;
+}
+
+.nav-link {
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.get-started1 {
+    background: lightgreen;
+    color: #fff;
+    padding: 4px 20px 6px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border-color: whitesmoke;
+    box-shadow: none;
+    border: none;
+}
+.get-started1:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+/* banner */
+.banner {
+    background-image: url("../img/hero-bg.jpg");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner-sec {
+    position: relative;
+    top: 170px;
+    left: 25px;
+}
+
+.banner-sec h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.banner-sec p {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner-sec a {
+    color: white;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 4px 20px 6px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border-color: #fff;
+}
+
+.banner-sec a:hover {
+    background-color: lightgreen;
+}
+
+/* About */
+.about {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.about-sec ul{
+    padding-left: 0;
+}
+
+.about-sec ul li {
+    list-style: none;
+    
+}
+
+.about-sec p {
+    font-style: italic;
+}
+
+.about-sec ul li i {
+    padding-right: 10px;
+    color: lightgreen;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+   
+}
+
+/* Details */
+.details {
+    margin-top: 80px;
+    padding-top: 30px;
+    background-color: aliceblue;
+}
+
+.detail-sec span {
+    font-size: 40px;
+}
+
+.detail-sec {
+    padding-bottom: 10px;
+}
+
+.det-span {
+    font-weight: bold;
+    color: lightgreen;
+    text-align: center;
+}
+
+.det-span p {
+    color: rgb(51, 50, 50);
+}
+
+/* mentor */
+.mentor {
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.get-started3 {
+    background: lightgreen;
+    color: #fff;
+    padding: 4px 20px 6px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border-color: white;
+}
+
+.men-btn {
+    align-items: center;
+}
+
+.men-card1 {
+    border-color: #eef3f0;
+    line-height: 35px;
+    background-color: rgb(97, 186, 97);
+
+}
+
+.men-card1 h5 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.men-card1 p {
+    text-align: left;
+    color: #fff;
+
+}
+
+.men-card1 .btn1 {
+    border-radius: 17px;
+    background-color: lightgreen;
+    border-color: rgb(119, 208, 119);
+}
+
+.men-card1 a i {
+    padding-left: 10px;
+}
+
+.men-card2 {
+    border-color: #eef3f0;
+    height: 285px;
+}
+
+.men-card2 h5 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.men-card2 i {
+    display: inline-block;
+    padding: 6px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    border-radius: 50px;
+    color: rgb(58, 198, 58);
+    background-color: aliceblue;
+}
+
+/* features */
+.features {
+    margin-top: 80px;
+}
+
+.poto {
+    margin-top: 30px;
+    padding-top: 10px;
+    border: solid 1px;
+    border-color: aliceblue;
+    width: 23.5%;
+    height: 75px;
+    margin-left: 10px;
+}
+
+.poto i {
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.poto span {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+}
+
+/* courses */
+.courses {
+    padding-top: 80px;
+}
+
+.course-head {
+    position: relative;
+}
+
+.course-head h4 {
+    color: #afb4b1;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.course-head h4::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    color: #777777;
+    display: inline-block;
+    margin: 4px 10px;
+}
+
+.course-head p {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(74, 71, 71);
+}
+
+.crs-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.crs-head span {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.crs-head h3 {
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgb(109, 193, 109);
+}
+
+.crs-ftr img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.h-100{
+    border-color: #eef3f0;
+}
+.crs-body p {
+    color: #afb4b1;
+}
+
+.crs-ftr span {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5a6c60;
+}
+
+.crs-ico {
+    display: inline-block;
+    padding-top: 10px;
+    color: #5a6c60;
+}
+
+.card-footer {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Trainers */
+.trainers {
+    margin-top: 80px;
+}
+.tri-flcd{
+    border-color:#eef3f0 ;
+}
+.tri-card {
+    text-align: center;
+}
+
+.tri-card h5 {
+    font-weight: 600;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+.tri-card span {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.tri-card p {
+    font-style: italic;
+    color: #afb4b1;
+}
+
+.tri-social {
+    word-spacing: 5px;
+}
+
+.tri-social i {
+    font-size: 25px;
+    color: #5a6c60;
+}
+
+/* footer */
+.footer {
+    padding-top: 80px;
+    background-color: whitesmoke;
+    margin-top: 80px;
+}
+
+.footer h4 {
+    font-size: 16px;
+}
+
+.first-para p {
+    color: #777777;
+}
+
+.ftr-use ul li a {
+    color: #777777;
+    text-decoration: none;
+}
+
+.ftr-use ul li {
+    line-height: 40px;
+    list-style: none;
+}
+
+.ftr-use ul li i {
+    color: lightgreen;
+    font-size: 13px;
+    padding-right: 7px;
+}
+
+.ftr-opts h4 {
+    padding-left: 10%;
+    font-size: 18px;
+}
+
+.last-frt {
+    background-color: #ebe9e9;
+}
+.input-group{
+    background: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.form-control{
+    border:0;
+}
+#basic-addon2{
+    border-radius: 25px;
+    margin-left: 1px;
+
+}
+.copy-rights {
+    padding-top: 30px;
+}
+
+.footer-icons {
+    padding-top: 30px;
+    display: inline-block;
+    text-align: end;
+}
+
+.footer-icons i {
+    background-color: rgb(100, 176, 100);
+    display: inline-block;
+    padding: 4px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.creadit {
+    margin-bottom: 10px;
+}
+
+.copy-rights p {
+    margin-bottom: 0;
+}
+
+.creadit a {
+    text-decoration: none;
+    color: rgb(104, 202, 104);
+}
+
+.input-group-text {
+    background-color: rgb(70, 180, 70);
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+}
