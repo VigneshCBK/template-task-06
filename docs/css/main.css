@@ -2,7 +2,26 @@
     color: lightgreen;
     font-weight: bolder;
 }
-
+.nav-sec{
+    height: 50px;
+     background-color: #00796b;
+      padding: 10px; 
+}
+.nav-sec a{
+    text-decoration: none; 
+    padding-right: 30px;
+     color:#fff;
+}
+.nav-sec a i{
+    padding-right: 5px;
+    font-size: 20px;
+}
+.top-info{
+    background-color:#00796b ;   
+}
+.top-navbar{
+    background-color: #008374;
+}
 .link1 {
     color: lightgreen;
 }
@@ -14,7 +33,42 @@
 .navbar-brand {
     font-size: 30px;
 }
+.nav-sec2{
+    height: 50px;
+     background-color: #00796b;
+     text-align: end;
+      padding: 10px;
+}
+.nav-sec2 a{
+    text-decoration: none;
+     padding-right: 20px;
+      color:#fff;
 
+}
+.nav-sec2 a i{
+    font-size: 20px;
+}
+.top-nav2 a{
+    text-decoration: none; padding: 10px; 
+}
+.top-nav2 a h1{
+    color:#fff; margin-left:100px; font-size: 40px;
+}
+.top-nav2 a h1 span{
+    color: #f96f59;
+}
+.top-nav-sec{
+    background: #008374;
+}
+.top-nav-sec ul{
+    list-style:none; display: flex;justify-content: space-evenly; padding: 30px; box-shadow: 15px;
+}
+.top-nav-sec ul li{
+
+}
+.top-nav-sec ul li a{
+    text-decoration:none;color: #fff;
+}
 .get-started1 {
     background: lightgreen;
     color: #fff;
