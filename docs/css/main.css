@@ -79,10 +79,12 @@
     box-shadow: none;
     border: none;
 }
-.get-started1:focus{
+.get-started1:hover{
     outline: 0;
+    border-color: lightgreen;
     box-shadow: none;
 }
+
 
 /* banner */
 .banner {
@@ -90,6 +92,8 @@
     background-position: center;
     height: 80vh;
     width: 100%;
+    display: inline-flex;
+    align-items: center;
     background-size: cover;
     background-attachment: fixed;
 }
