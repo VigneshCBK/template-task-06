@@ -87,6 +87,7 @@
 /* banner */
 .banner {
     background-image: url("../img/hero-bg.jpg");
+    background-position: center;
     height: 80vh;
     width: 100%;
     background-size: cover;
@@ -94,9 +95,8 @@
 }
 
 .banner-sec {
-    position: relative;
-    top: 170px;
-    left: 25px;
+    padding-top: 50px;
+    justify-content: center;
 }
 
 .banner-sec h1 {
@@ -238,7 +238,7 @@
 
 .men-card2 i {
     display: inline-block;
-    padding: 6px;
+    padding: 14px;
     width: 60px;
     height: 60px;
     margin-bottom: 40px;
@@ -386,7 +386,9 @@
 .tri-social {
     word-spacing: 5px;
 }
-
+.tri-social a{
+    text-decoration: none;
+}
 .tri-social i {
     font-size: 25px;
     color: #5a6c60;
@@ -457,7 +459,7 @@
 .footer-icons i {
     background-color: rgb(100, 176, 100);
     display: inline-block;
-    padding: 4px;
+    padding: 11px;
     text-align: center;
     width: 40px;
     height: 40px;
@@ -484,4 +486,7 @@
     color: aliceblue;
     width: 100px;
     height: 50px;
+
 }
+
+
